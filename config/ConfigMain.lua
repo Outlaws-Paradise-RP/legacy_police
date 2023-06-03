@@ -13,7 +13,7 @@ Valentine = val
 Saint Denis = sd
 Annesburg = an
 ]]
-ConfigMain.synsociety = true -- If you use syn_society and want compatability
+ConfigMain.synsociety = false -- If you use syn_society and want compatability
 ConfigMain.CheckHorse = true -- If you want to check horse ID's
 Locale = 'en'
 
@@ -31,8 +31,8 @@ OnDutyJobs = {
      'sheriffrhodes',
 }
 
-ConfigMain.ondutycommand = "goonduty"         -- Go on duty Command
-ConfigMain.offdutycommand = "gooffduty"       --Go off duty Command
+ConfigMain.ondutycommand = "onduty"         -- Go on duty Command
+ConfigMain.offdutycommand = "offduty"       --Go off duty Command
 ConfigMain.adjustbadgecommand = "adjustbadge" -- Go on duty Command
 ConfigMain.openpolicemenu = "menu"            -- Open Police Menu Command
 ConfigMain.jailcommand = 'jail'               --Command to jail for cops and admins
